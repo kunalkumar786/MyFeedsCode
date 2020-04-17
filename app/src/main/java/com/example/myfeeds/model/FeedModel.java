@@ -6,6 +6,15 @@ public class FeedModel {
 
     private String header_title;
 
+    public FeedModel() {
+    }
+
+    public FeedModel(String imageHref, String title, String description) {
+        this.imageHref=imageHref;
+        this.title=title;
+        this.description=description;
+    }
+
     public String getHeader_title() {
         return header_title;
     }
@@ -44,5 +53,6 @@ public String getTitle() {
     }
 
 
-
+    public void setItem(FeedModel item) {
+    }
 }
